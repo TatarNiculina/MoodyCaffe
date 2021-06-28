@@ -1,0 +1,19 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+ 
+}
+
+.btn-primary {
+  background-color: whitesmoke;
+  color: #201512 ;
+  text-shadow: none;
+  border: none;
+  
+}
+
+.btn-primary:hover {
+  background-color:#201512;
+  color: #ffffff;
+}

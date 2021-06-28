@@ -1,0 +1,445 @@
+.topnav {
+    background-color: #333;
+    padding: 10px 0;
+    align-items: center;
+    display: flex;
+  }
+  
+  #loggo {
+    font-weight: 350;
+    font-size: 40px;
+    margin: 0;
+    padding: 0px 10px;
+    text-align: left;
+    color: White;
+    font-family: 'Covered By Your Grace', sans-serif;
+  }
+  
+  .topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+  
+  .topnav a:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+
+  header {
+
+    background-image: url("C:/Users/niculina.tatar/Desktop/coffee_product_pictures/coffeebackground.jpg");
+    background-size: cover;
+    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  h2 {
+    color: #E4BB97;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    color: #41292C;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+
+  section .row img {
+    margin: 0 0 30px;
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  .roasting {
+    margin: 40px auto;
+    padding: 20px 30px 40px 30px;
+    background-color: #FFFFFFFF;
+    overflow: auto;
+    width: 75%;
+    border-radius: 4px;
+    align-self: center;
+  }
+  
+  .roasting p {
+    color: #938E89;
+    text-align: center;
+    line-height: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .spectrum div {
+    font: inherit;
+    padding: 0 20px;
+    color: #FFFFFF;
+    overflow: auto;
+    opacity: 0.9;
+  }
+  
+  .spectrum p {
+    color: #FFFFFF;
+    text-align: left;
+  }
+
+  a {
+    color: #214E34;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  
+
+  <ul>
+    <li>
+      <h2>Brazil</h2>
+      <p>Arabica dominates both Brazil and the world as a whole with about 85% of the production; robusta accounts for the remaining 30%. In Brazil, arabica production is located in the main coffee-growing cluster of states led by Rio where arabica is
+        produced almost exclusively. Robusta is primarily grown in the northwestern much smaller state of Espirito Santo where about 80% of the coffee is robusta.</p>
+      <a href="#">Learn More about Brazil</a>
+    </li>
+    <li>
+      <h2>Colombia</h2>
+      <p>Colombia has a reputation as producing mild, well balanced coffee beans.Colombia's average annual coffee production of 11.5 million bags is the third total highest in the world, after Brazil and Vietnam; though highest in terms of the arabica
+        bean. The beans are exported to United States, Germany, France, Japan, and Italy. Most coffee is grown in the Colombian coffee growing axis region.</p>
+      <a href="#">Learn More about Colombia</a>
+    </li>
+    <li>
+      <h2>India</h2>
+      <p>Indian coffee, grown mostly in southern India under monsoon rainfall conditions, is also termed as Indian monsooned coffee". Its flavor is defined as: "At its best similar to the flavor characteristics of Pacific coffees, but at its worst bland and uninspiring. The two well known species of coffee grown are the Arabica and Robusta. Probably the most commonly planted Arabica in India and Southeast Asia is S.795.</p>
+      <a href="#">Learn More about India</a>
+    </li>
+    <li>
+      <h2>Ethiopia</h2>
+      <p>Ethiopian beans can be divided into 3 categories: Longberry, Shortberry, and Mocha. Longberry varieties consist of the largest beans and are often considered of the highest quality in both value and flavor. Shortberry varieties are smaller. The Mocha variety is a highly prized commodity. Mocha Harars are known for their peaberry beans that often have complex chocolate, spice and citrus notes.</p>
+      <a href="#">Learn More about Ethiopia</a>
+    </li>
+    <li>
+      <h2>Costa Rica</h2>
+      <p>Costa Rican coffee beans are considered among the best in the world. Tarrazu is thought to produce the most desirable coffee beans in Costa Rica. In 2012, Tarrazu Geisha coffee became the most expensive coffee sold by Starbucks in 48 of their stores in the United States, using the Clover automated French press. The finest coffee is typically grown at altitudes of 1200 to 1700 meters.</p>
+      <a href="#">Learn More about Costa Rica</a>
+    </li>
+    <li>
+      <h2>Kenya</h2>
+      <p>The acidic soil in highlands of central Kenya, just the right amount of sunlight and rainfall provide excellent conditions for growing coffee plants. Coffee from Kenya is of the 'Colombia mild' type, and is well known for its intense flavor, full body, and pleasant aroma with notes of cocoa and high grade coffee from Kenya is one of the most sought-after coffees in the world.</p>
+      <a href="#">Learn More about Kenya</a>
+    </li>
+  </ul>
+
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  border: 1px solid #4C352D; 
+
+  //////////////////////////////////////////////////////////
+
+  body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+    margin: 0;
+    background: whitesmoke;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, whitesmoke 0%, whitesmoke 100%);
+    font-family: 'Covered By Your Grace', sans-serif;
+  
+  }
+  
+  /** Header styles **/
+  header {
+    padding:0;
+  }
+  
+  header .row,
+  footer .row {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-weight: 350;
+    font-size: 40px;
+    margin: 0;
+    padding: 0px 20px;
+    text-align: right;
+    color: White;
+    font-family: 'Covered By Your Grace', sans-serif;
+  }
+  
+  
+  
+  header a {
+    padding: 14px 16px;
+    margin: 0;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .jumbotron{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("C:/Users/niculina.tatar/Desktop/coffee_product_pictures/coffeebackground.jpg");
+  background-size: cover;
+  height: 500px;
+  margin-top: 0;
+  padding-top: 0;
+  }
+  
+  .jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: 'Covered By Your Grace', sans-serif;
+    text-align: center;
+    
+  }
+  
+  .row {
+     display: flex;
+    
+  }
+  section .row img {
+    margin: 0 0 30px;
+    width:  400px;
+    height: 400px;
+    object-fit: cover;
+  
+  }
+  
+  section h1 {
+    color: #4C352D;
+  }
+  .col-md-4 {
+    padding: 10px;
+    margin: 0 0 30px;
+    align-self: center;
+    text-align: center;
+    
+  }
+  
+  .btn-primary {
+    background-color: whitesmoke;
+    color: #4C352D ;
+    margin: 0 0 30px;
+    
+  }
+  
+  .btn-primary:hover {
+    background-color: #4C352D;
+    color: #ffffff;
+  }
+  
+  .btn-secondary {
+    background-color: #4C352D;
+    color: #ffffff;
+    margin: 0 0 30px;
+    
+    
+  }
+  /* Typography */
+  h1 {
+    color: White;
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-size: 100px;
+    line-height: 76px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: 20%;
+    padding: 40px 0px;
+  }
+  
+  h2 {
+    color: #E4BB97;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    color: #41292C;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
+  
+  h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: .2em;
+  }
+  
+  h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: .2em;
+    font-weight: 300;
+  }
+  
+  /* Page elements */
+  ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+  }
+  
+  li {
+    border-bottom: 1px solid #E4BB97;
+    list-style: none;
+    margin: 100px 0px;
+    padding-bottom: 60px;
+  }
+  
+  p {
+    color: #444444;
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  a {
+    color: #214E34;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  
+  
+  footer {
+    font-size: 12px;
+    padding: 20px 0;
+  }
+  
+  footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer li img {
+    width: 32px;
+    height: 32px;
+  }
+  /////////////////////////////////////////////////
+  OLD ::content
+
+  
+
+
+<main class="px-3">     
+<section class="jumbotron">
+  <div class="container">
+    <div class="row text-center">
+      <h2>The coffee that matches your vibe</h2>
+      <a class="btn btn-primary" href="products.html" role="button" type="button">Take a sip </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <h1>How do you feel today?</h1>
+
+  <div class="row">
+    <figure class="col-md-4">
+      <img src="C:/Users/niculina.tatar/Desktop/coffee_product_pictures/Iced-Matcha-Green-Tea-Latte-FI.jpg">
+      <h2>Global Peace</h2>
+      <a class="btn btn-secondary" href="products.html" role="button" type="button">Details</a>
+    </figure>
+    <figure class="col-md-4">
+      <img src="C:/Users/niculina.tatar/Desktop/coffee_product_pictures/fancy.jpg">
+      <h2>Glamorous</h2>
+      <a class="btn btn-secondary" href="products.html" role="button" type="button">Details</a>
+    </figure>
+    <figure class="col-md-4">
+      <img src="C:/Users/niculina.tatar/Desktop/coffee_product_pictures/frape.jpg">
+      <h2>Just wake me up</h2>
+      <a class="btn btn-secondary" href="products.html" role="button" type="button">Details</a>
+    </figure>
+  </div>
+
+  
+  <div class="row">
+    <figure class="col-md-4">
+      <img src="C:/Users/niculina.tatar/Desktop/coffee_product_pictures/coldcoffee.jpg">
+      <h2>Working mom</h2>
+      <a class="btn btn-secondary" href="products.html" role="button" type="button">Details</a>
+    </figure>
+    <figure class="col-md-4">
+      <img src="C:/Users/niculina.tatar/Desktop/coffee_product_pictures/espresso.png">
+      <h2>Zombie Mode</h2>
+      <a class="btn btn-secondary" href="products.html" role="button" type="button">Details</a>
+    </figure>
+  </div>
+</section>
+</main>
+
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2021 Niculina Ciogolea</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1"> 
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg" />
+        </li>
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg" />
+        </li>
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+        </li>
+        <li class="col-sm-1">
+         <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg"> 
+        </li>
+      </ul>
+    </div>
+  </footer>   
+   
+
